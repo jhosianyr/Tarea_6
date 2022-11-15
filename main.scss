@@ -1,0 +1,32 @@
+.pokemon-block {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.img-container {
+    background-color: #f4f4f4; 
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0 5px 10px 0px #053d8bb5;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.name {
+    color: #fff;
+    text-align: center;
+    background-color: #032179;
+    margin: 0 20px 20px ;
+    padding: 10px 20px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    box-shadow: 0 5px 10px 0px #053d8bb5;
+    font-family: "Handlee", cursive;
+}
